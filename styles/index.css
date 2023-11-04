@@ -1,0 +1,84 @@
+html {
+    font-family: 'Onest', sans-serif;
+}
+
+#header {
+    background-color: #6c6666;
+
+    padding: 20px 0;
+}
+
+#nav {
+       max-width: 960px;
+
+       margin: 0 auto;
+}
+.nav-item {
+    margin-right: 20px;
+
+    text-decoration: none;
+    color: rgb(43, 150, 226);
+    
+}
+.nav-item:hover{
+    text-decoration: underline rgb(138, 202, 232) 1px;
+    text-underline-offset: 5px;
+
+}
+#content {
+    max-width: 960px;
+    margin: 30px auto;
+}
+#avatar-wrapper {
+    height: 300px;
+    width: 300px;
+    border-radius: 9999px;
+    margin: auto;
+
+    overflow: hidden;
+}
+#avatar-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+h2 {
+    color: rgb(43, 150, 226);
+}
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#gallary {
+        margin: auto;
+}
+#gallary td{
+    padding: 10px;
+    text-align: center;
+}
+table img {
+    width: 150px;
+    height: 200px;
+
+    object-position: left;
+    object-fit: cover;
+
+}
+#about-me-info{
+    margin: 40px 0;
+    width: 100%;
+}
+
+#about-me-info td:nth-child(1){
+    width: 40%;
+}
+#experience {
+    margin: 30px auto;
+}
+.experience-item h3{
+     color: rgb(43, 122, 226);
+}
